@@ -5,6 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crear Proveedor</title>
+    <style>
+        html{
+            font-family: 'arial';
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+            width: 30%
+        }
+
+        div{
+            border-bottom: 1px black solid;
+            margin: 0 auto;
+            padding: 5px 0px;
+            display: flex;
+            flex-direction: column;
+            justify-content: left;
+        }
+        div:last-of-type{
+            margin-bottom: 8px
+        }
+        button{
+            background-color: rgb(151, 151, 245);
+            padding: 5px;
+        }
+        button:hover{
+            background-color: rgb(38, 38, 85);
+            color: white;
+        }
+    </style>
 </head>
 <body>
     <h1>Crear Proveedor</h1>
